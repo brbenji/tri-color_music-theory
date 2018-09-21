@@ -90,7 +90,7 @@ header {
 }
 
 /*Media Query Mobile to Desktop*/
-@media (min-width: 600px){
+@media only screen and (min-width: 600px){
 	.page-title {
 		font-size: 3rem;
 	}
