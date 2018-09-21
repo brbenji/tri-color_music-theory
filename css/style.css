@@ -19,7 +19,7 @@ body {
 
 header {
 	grid-row: 1;
-	height: 20rem;
+	height: 12rem;
 }
 
 .page-title {
@@ -66,6 +66,7 @@ header {
     transition: all 1.3s ease;
     height: 28vmin;
     width: 28vmin;
+    top: 2rem;
     background-color: rgba(235, 179, 89, 0.83);
     box-shadow: -7vmin  -3vmin 0px  52px rgba(235, 179, 89, 0.8392156862745098), 
     			22vmin -19vmin 0px -34px #8cbaefe6;
@@ -74,11 +75,11 @@ header {
 
 /* image place holder for the interactive chart with inputs*/
 .chart-input {
-	height: 100vmin;
+	height: 85vmin;
 	grid-row: 4/6;
 	grid-column: 2/7;
 	min-height: 100%;
-	margin-bottom: 33px;
+	margin-bottom: 60px;
 }
 
 .chords-output {
