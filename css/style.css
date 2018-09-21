@@ -27,7 +27,7 @@ header {
 	grid-column: 2/ 7;
 	white-space: nowrap;
 	color: rgba(74, 72, 72, 0.62);
-	font-size: 3rem;
+	font-size: 2rem;
 	font-weight: bold;
 }
 
@@ -77,18 +77,32 @@ header {
 	height: 100vmin;
 	grid-row: 4/6;
 	grid-column: 2/7;
+	min-height: 100%;
+	margin-bottom: 33px;
 }
 
 .chords-output {
-    grid-row: 5;
-    grid-column: 4;
-    display: flex;
-    width: 57vw;
-    justify-content: space-between;
-    margin-top: -36rem;
-    padding-right: 3rem;
+	grid-row: 5;
+	grid-column: 4;
+	padding-right:3rem;
+
 }
 
+/*Media Query Mobile to Desktop*/
+@media (min-width: 600px){
+	.page-title {
+		font-size: 3rem;
+	}
+	.chart-input {
+		margin-bottom: -20vh;
+	}
+	.chords-output {
+	    display: flex;
+	    justify-content: space-between;
+	   width: 125%;
+
+	}
+}
 .chords-output__title {
 	list-style: none;
 	color: rgba(74, 72, 72, .99);
